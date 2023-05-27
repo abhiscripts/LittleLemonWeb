@@ -1,0 +1,120 @@
+.title-image {
+  display: block;
+  max-width: 70%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+#mainMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mainMenu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#mainMenu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wide-image {
+  height: 30vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.wide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.overlay h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  height: 30%;
+  margin: 20px;
+  background-color: #face94;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.footer {
+  color: rgb(43, 41, 41);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.footer-text {
+  font-size: 14px;
+  padding-right: 50px;
+}
